@@ -1,0 +1,27 @@
+{
+    "title": "Handling Kuberentes Deployments using Keptn Lifecycle Toolkit",
+    "description": "Let users wrap a standard Kubernetes deployment and provides both workload (single service) tests and SLO evaluations.",
+    "difficulty": "Beginner",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title":"Step-1",
+          "text": "step1.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal"
+      },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
